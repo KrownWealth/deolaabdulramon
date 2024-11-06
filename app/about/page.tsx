@@ -1,7 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
-
+import { NavigationCondition } from '@/components/shared';
 const About = () => {
   return (
     <>
@@ -10,6 +10,7 @@ const About = () => {
         <meta name="description" content="About Adeola Abdulramon" />
       </Head>
       <section className="px-8 md:px-12 pt-8 md:min-h-screen md:h-screen md:overflow-hidden bg-white">
+        <div className=""> <NavigationCondition /></div>
         <div className="flex flex-col md:flex-row items-end gap-10">
           <div className="w-full md:w-2/5">
             <Image

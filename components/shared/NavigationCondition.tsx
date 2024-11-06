@@ -18,11 +18,11 @@ export const NavigationCondition = () => {
   return (
     <>
       {pathname === "/" ? (
-        <div className="p-12">
+        <div className="py-4 md:py-12">
           <Navigation />
         </div>
       ) : (
-        <div className="flex justify-between items-start p-12">
+        <div className="flex justify-between items-start py-4 md:py-12 ">
           <div className="flex space-x-4">
             <Navigation />
             <SectionHeading headTitle={headTitle} />

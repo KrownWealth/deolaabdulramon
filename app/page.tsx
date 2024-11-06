@@ -5,20 +5,16 @@ import { FaXTwitter } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 import { FaMediumM } from "react-icons/fa";
 import { FaRegEnvelope } from "react-icons/fa";
-import { RiMenuFill } from "react-icons/ri";
-import { Sheet, SheetTrigger, SheetContent, SheetHeader } from "@/components/ui/sheet";
-import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
+import { NavigationCondition } from "@/components/shared";
 
-const menuLink = [
-  { label: "About", href: "/about" },
-  { label: "Portfolio", href: "/portfolio" },
-  { label: "Blog", href: "/blog" }
-]
+
 export default function Home() {
 
   return (
     <div className="min-h-screen h-screen md:overflow-hidden flex flex-col md:flex-row justify-between w-full bg-white md:bg-[#080796] p-4 md:p-0">
+      <div className="md:hidden block ">  <NavigationCondition /></div>
       <section className="w-full md:w-1/2 flex flex-col  bg-white text-black md:p-12 lg:p-4 lg:px-12 order-2 md:order-1">
+        <div className="md:flex hidden text-start"> <NavigationCondition /></div>
         <div className="items-start justify-center">
           <h1 className="text-4xl lg:text-6xl font-bold md:pb-8 uppercase pt-2 md:pt-0">Adeola</h1>
           <div className="py-8  lg:leading-10 text-sm md:text-lg">
@@ -54,8 +50,8 @@ export default function Home() {
           src="/assets/images/adeola-removebg.png"
           alt="Adeola Abdulramon"
           layout="responsive"
-          width={1000} // Adjust this to the actual aspect ratio of the image
-          height={500} // Adjust this to the actual aspect ratio of the image
+          width={1000}
+          height={500}
           className="w-full max-w-xs sm:max-w-md lg:max-w-lg"
         />
 

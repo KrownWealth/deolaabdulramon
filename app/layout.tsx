@@ -20,8 +20,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <NavigationCondition />
-        <main>{children}</main>
+
+        <main>  {children}</main>
         <Footer />
       </body>
     </html>
