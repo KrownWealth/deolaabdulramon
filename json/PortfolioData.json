@@ -1,0 +1,61 @@
+[
+{
+"projectName": "Hometung",
+"goal": "The goal of this project is to streamline inventory management and enhance customer engagement for e-commerce businesses. By providing a dynamic admin dashboard with real-time pricing, inventory visualization, and order tracking, this platform simplifies decision-making for stock managers. For customers, a dedicated interface offers easy product browsing, checkout, review capabilities, and profile management. The integration of AI simulations and synthetic call transcripts allows businesses to test customer interactions, providing insights into AI performance and its impact on customer satisfaction.",
+"solution": "This solution leverages a powerful tech stack, including TypeScript, React, Node.js, and Supabase, to create a responsive e-commerce platform. The admin dashboard offers real-time data visualization and markup-based pricing, while a robust backend, supported by Prisma ORM, MongoDB, and QuickSight, ensures secure data handling and analytics. Customers benefit from an intuitive interface with Stripe-powered checkout, profile customization, and post-purchase review features. The platform’s AI simulation tools offer an advanced testing environment, equipping businesses with actionable insights even before going live.",
+"techStack": "React, Next.JS, RESTful APIs, MongoDB, Supabase, Prisma, NextAuth, Tailwind CSS, Shadcn UI",
+"githubLink": "https://github.com/KrownWealth/pricesage",
+"image": "/assets/images/Price Sage.png"
+},
+
+{
+"projectName": "RiseHub",
+"goal": "RiseHub is a multi-lingual e-commerce web application where users can buy social media services including followers, likes, and reels. The presence of Headless content management has led to inconveniences social service addition for admin who may create, update or delete unwanted services from the WordPress dashbaord and it get updated to the frontend real-time.",
+"solution": "Risehub is a custom web application. The platform allow admin to easily update their backend without any technicality. Backend data is housed using WordPress Content Management System. The Next.JS i18n was used for language translation.",
+"techStack": "React, Next.JS, Apollo Client, GraphQL, WordPress, Tailwind CSS, NextUI, Shadcn UI, i18n",
+"githubLink": "https://www.risehub.ro/"
+},
+
+{
+"projectName": "Travel Blog",
+"goal": "The goal of this project was to showcase the benefits of Headless Content Management System by building a basic travel blog app.",
+"solution": "The solution uses WordPress CMS to house the blog data, Shared Contents to keep track of new blog upload.",
+"techStack": "React, Next.JS, WordPress, GraphQL",
+"githubLink": "https://github.com/KrownWealth/travblog",
+"image": "/assets/images/Travblog.png"
+},
+
+{
+"projectName": "Clotheccessories",
+"goal": "Clotheccessories is a simulated fashion brand based in Nigeria. Customers can view range of available products, filter product by colors. ",
+"solution": "The E-Commerce website was built from scratch using HTML, CSS, and JavaScript. This was to test my knowledge in JavaScript event handlers and DOM manipulation",
+"techStack": "HTML, CSS, JavaScript ",
+"githubLink": "https://github.com/KrownWealth/Clothccessories",
+"image": "/assets/images/Clothesseccories.png"
+},
+
+{
+"projectName": "Calorify",
+"goal": "The task was to build a web app that allows gym-goers calculate the total estimation of the calory burned during a specific activity over a period of time.",
+"solution": "The app has the following features. Users can select activity from activities dropdown fetches from a REST APIs; Users can input their weight and time duration they want the actiity to span.",
+"techStack": "React, Next.JS, REST APIs endpoint, Tailwind CSS, ",
+"githubLink": "https://github.com/KrownWealth/calorify",
+"image1": "/assets/images/calorify-mobile.png"
+},
+
+{
+"projectName": "Neastin",
+"goal": "Neastin is a digital marketing website built with WordPress. They wanted an informative E-Commerce website for users to purchase digital services packages.",
+"techStack": "WordPress, Elementor, ACF",
+"image": "/assets/images/neastin.png"
+},
+
+{
+"projectName": "Travel and Meal",
+"goal": "Travel and Meal is an e-commerce platform built for local restaurants for visibility purpose. Offering a location-based services helped to reduce customer physical queue by 15%.",
+"solution": "The app has the following features. Users singup and login features, google 0Auth 2.0, Appwrite for database storage, restaurants archive page, individual restaurant detail page and many more.",
+"techStack": "React, Next.JS, Appwrite, Tailwind CSS, ",
+"githubLink": "https://github.com/KrownWealth/travelandmeal",
+"image": "/assets/images/Travel and Meal.png"
+}
+]

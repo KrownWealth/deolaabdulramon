@@ -17,8 +17,8 @@ const menuLink = [
 export default function Home() {
 
   return (
-    <main className="min-h-screen h-screen md:overflow-hidden flex flex-col md:flex-row justify-between w-full bg-white md:bg-[#080796] p-4 md:p-0">
-      <div className="md:hidden block pt-4 pb-8">
+    <div className="min-h-screen h-screen md:overflow-hidden flex flex-col md:flex-row justify-between w-full bg-white md:bg-[#080796] p-4 md:p-0">
+      {/* <div className="md:hidden block pt-4 pb-8">
         <Sheet>
           <SheetTrigger className="cursor-pointer">
             <RiMenuFill className="w-6 h-6 text-black" />
@@ -52,9 +52,9 @@ export default function Home() {
           </SheetContent>
         </Sheet>
 
-      </div>
+      </div> */}
       <section className="w-full md:w-1/2 flex flex-col  bg-white text-black md:p-12 lg:p-4 lg:px-12 order-2 md:order-1">
-        <div className="md:flex hidden text-start pt-4 pb-12">
+        {/* <div className="md:flex hidden text-start pt-4 pb-12">
           <Sheet>
             <SheetTrigger className="cursor-pointer">
               <RiMenuFill className="w-6 h-6 text-black" />
@@ -75,7 +75,7 @@ export default function Home() {
             </SheetContent>
           </Sheet>
 
-        </div>
+        </div> */}
         <div className="items-start justify-center">
           <h1 className="text-4xl lg:text-6xl font-bold md:pb-8 uppercase pt-2 md:pt-0">Adeola</h1>
           <div className="py-8  lg:leading-10 text-sm md:text-lg">
@@ -117,6 +117,6 @@ export default function Home() {
         />
 
       </section>
-    </main>
+    </div>
   );
 }
