@@ -6,16 +6,75 @@ import { FaGithub } from "react-icons/fa";
 import { FaMediumM } from "react-icons/fa";
 import { FaRegEnvelope } from "react-icons/fa";
 import { RiMenuFill } from "react-icons/ri";
+import { Sheet, SheetTrigger, SheetContent, SheetHeader } from "@/components/ui/sheet";
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 
+const menuLink = [
+  { label: "About", href: "/about" },
+  { label: "Portfolio", href: "/portfolio" },
+  { label: "Blog", href: "/blog" }
+]
 export default function Home() {
+
   return (
     <main className="min-h-screen h-screen md:overflow-hidden flex flex-col md:flex-row justify-between w-full bg-white md:bg-[#080796] p-4 md:p-0">
       <div className="md:hidden block pt-4 pb-8">
-        <RiMenuFill className="w-6 h-6 text-black" />
+        <Sheet>
+          <SheetTrigger className="cursor-pointer">
+            <RiMenuFill className="w-6 h-6 text-black" />
+          </SheetTrigger>
+          <SheetContent className="w-full" side="right">
+            <SheetHeader>
+              <Avatar className="w-16 h-16 bg-[#080796]">
+                <AvatarImage src="/assets/images/adeola-removebg.png" alt="adeola" />
+                <AvatarFallback>Adeola</AvatarFallback>
+              </Avatar>
+            </SheetHeader>
+
+            <ul className="pt-8 flex flex-col gap-4">
+              {menuLink.map((menu) => (
+                <li key={menu.label} >
+                  <Link href={menu.href} className="underline">
+                    {menu.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+
+            <div className="flex space-x-2 pt-8">
+              <Link href="https://github.com/KrownWealth"> <FaGithub className="w-6 h-6" /></Link>
+              <Link href="https://www.linkedin.com/in/adeolaabdulramon/"> <FaLinkedinIn className="w-6 h-6" /></Link>
+              <Link href="https://x.com/deoladev"> <FaXTwitter className="w-6 h-6" /></Link>
+              <Link href="https://medium.com/@adeoladeveloper"> <FaMediumM className="w-6 h-6" /></Link>
+              <Link href="mailto:deolaabdulramon@gmail.com"><FaRegEnvelope className="w-6 h-6" /></Link>
+            </div>
+
+          </SheetContent>
+        </Sheet>
+
       </div>
       <section className="w-full md:w-1/2 flex flex-col  bg-white text-black md:p-12 lg:p-4 lg:px-12 order-2 md:order-1">
         <div className="md:flex hidden text-start pt-4 pb-12">
-          <RiMenuFill className="w-6 h-6 text-black" />
+          <Sheet>
+            <SheetTrigger className="cursor-pointer">
+              <RiMenuFill className="w-6 h-6 text-black" />
+            </SheetTrigger>
+            <SheetContent className="md:max-w-3xl" side="right">
+              <SheetHeader className="font-semibold text-2xl">
+                Quick Navigation
+              </SheetHeader>
+              <ul className="pt-8 flex flex-col gap-4">
+                {menuLink.map((menu) => (
+                  <li key={menu.label} >
+                    <Link href={menu.href} className="underline">
+                      {menu.label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </SheetContent>
+          </Sheet>
+
         </div>
         <div className="items-start justify-center">
           <h1 className="text-4xl lg:text-6xl font-bold md:pb-8 uppercase pt-2 md:pt-0">Adeola</h1>
