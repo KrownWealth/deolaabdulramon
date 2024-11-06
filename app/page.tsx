@@ -18,7 +18,6 @@ export default function Home() {
 
   return (
     <div className="min-h-screen h-screen md:overflow-hidden flex flex-col md:flex-row justify-between w-full bg-white md:bg-[#080796] p-4 md:p-0">
-
       <section className="w-full md:w-1/2 flex flex-col  bg-white text-black md:p-12 lg:p-4 lg:px-12 order-2 md:order-1">
         <div className="items-start justify-center">
           <h1 className="text-4xl lg:text-6xl font-bold md:pb-8 uppercase pt-2 md:pt-0">Adeola</h1>
