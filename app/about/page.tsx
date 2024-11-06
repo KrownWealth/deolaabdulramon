@@ -22,15 +22,15 @@ const About = () => {
             />
           </div>
           <div className="w-full md:w-3/5 leading-10">
-            <h1 className="text-4xl lg:text-6xl font-bold md:pb-8 pt-2 md:pt-0">Hi, I'm Adeola</h1>
+            <h1 className="text-4xl lg:text-6xl font-bold md:pb-8 pt-2 md:pt-0">Hi, I&apos;m Adeola</h1>
             <p>My name is Adeola Abdulramon. I am a Frontend Engineer who loves the Web and Emerging Technologies. </p>
             <p>
               I currently work as an intermediate Frontend Engineer where I work at the intersection of PWA and E-commerce Platforms. I have a Bachelor of Science in Education (Physics) from the Obafemi Awolowo University Affiliate Adeyemi College of Education, Ondo, Nigeria.
             </p>
             <p>I have a blog on medium, where I post content on Frontend Engineering, and Frontend Development.</p>
             <p>My non-tech passion includes entrepreneurship and teaching. I believe everyone should be given a chance at basic education.</p>
-            <p>In tech, I am a huge fan of the web and emerging technologies. At a tech event, you'd probably find me volunteering, networking, and meeting new people.</p>
-            <p>I am also passionate about the developer community and improving Nigeria’s e-commerce ecosystem with technology.</p>
+            <p>In tech, I am a huge fan of the web and emerging technologies. At a tech event, you&apos;d probably find me volunteering, networking, and meeting new people.</p>
+            <p>I am also passionate about the developer community and improving Nigeria&apos;s e-commerce ecosystem with technology.</p>
           </div>
         </div>
       </section>
