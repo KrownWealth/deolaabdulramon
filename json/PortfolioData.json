@@ -1,10 +1,10 @@
 [
 {
-"projectName": "Hometung",
-"goal": "The goal of this project is to streamline inventory management and enhance customer engagement for e-commerce businesses. By providing a dynamic admin dashboard with real-time pricing, inventory visualization, and order tracking, this platform simplifies decision-making for stock managers. For customers, a dedicated interface offers easy product browsing, checkout, review capabilities, and profile management. The integration of AI simulations and synthetic call transcripts allows businesses to test customer interactions, providing insights into AI performance and its impact on customer satisfaction.",
-"solution": "This solution leverages a powerful tech stack, including TypeScript, React, Node.js, and Supabase, to create a responsive e-commerce platform. The admin dashboard offers real-time data visualization and markup-based pricing, while a robust backend, supported by Prisma ORM, MongoDB, and QuickSight, ensures secure data handling and analytics. Customers benefit from an intuitive interface with Stripe-powered checkout, profile customization, and post-purchase review features. The platform’s AI simulation tools offer an advanced testing environment, equipping businesses with actionable insights even before going live.",
+"projectName": "Inventory-Ecommerce",
+"goal": "The goal of this project is to streamline inventory management and enhance customer engagement for e-commerce businesses. By providing a dynamic admin dashboard with real-time pricing, inventory visualization, and order tracking, this platform simplifies decision-making for stock managers. For customers, a dedicated interface offers easy product browsing, checkout, review capabilities, view order history, and profile management.",
+"solution": "This solution leverages a powerful tech stack, including TypeScript, React, Node.js, and Supabase, to create a responsive e-commerce platform. The admin dashboard offers real-time data visualization and markup-based pricing, while a robust backend, supported by Prisma ORM, MongoDB, and QuickSight, ensures secure data handling and analytics. Customers benefit from an intuitive interface with Stripe-powered checkout, profile customization, and post-purchase review features.",
 "techStack": "React, Next.JS, RESTful APIs, MongoDB, Supabase, Prisma, NextAuth, Tailwind CSS, Shadcn UI",
-"githubLink": "https://github.com/KrownWealth/pricesage",
+"githubLink": "https://github.com/KrownWealth/Inventory-Ecommerce-Web-App/",
 "image": "/assets/images/Price Sage.png"
 },
 
