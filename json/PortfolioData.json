@@ -35,15 +35,6 @@
 "liveLink": "",
 "image": "/assets/images/Price Sage.png"
 },
-
-{
-"projectName": "RiseHub",
-"goal": "RiseHub is a multi-lingual e-commerce web application where users can buy social media services including followers, likes, and reels. The presence of Headless content management has led to inconveniences social service addition for admin who may create, update or delete unwanted services from the WordPress dashbaord and it get updated to the frontend real-time.",
-"solution": "Risehub is a custom web application. The platform allow admin to easily update their backend without any technicality. Backend data is housed using WordPress Content Management System. The Next.JS i18n was used for language translation.",
-"techStack": "TYpescript, React(Next.JS), Apollo Client, GraphQL, WordPress Headless CMS, Tailwind CSS, NextUI, Shadcn UI, Next.js i18n",
-"githubLink": "https://www.risehub.ro/"
-},
-
 {
 "projectName": "Travel Blog",
 "goal": "The goal of this project was to showcase the benefits of Headless Content Management System by building a basic travel blog app.",
