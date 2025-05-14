@@ -33,6 +33,18 @@ export function PortfolioAccordion() {
                     </a>
                   </p>
                 )}
+                {portfolio.liveLink && (
+                  <p>
+                    <a
+                      href={portfolio.liveLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-500 underline"
+                    >
+                      Live link
+                    </a>
+                  </p>
+                )}
               </div>
               <div className="flex w-full md:w-[40%] items-start justify-start mt-4 md:mt-0">
                 {portfolio.image && (
