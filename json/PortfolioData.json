@@ -5,7 +5,7 @@
 "solution": "The solution uses CSS Grid and Flexbox for layout design. Cloudinary was used for images and video optiomization. The website is responsive and works well on all devices.",
 "techStack": "Vite, React, Tailwind CSS, Framer Motion, Cloudinary",
 "githubLink": "https://github.com/KrownWealth/appleng-remastered/",
-"liveLink": "https://apple-remastered.vercel.app/",
+"liveLink": "https://appleng-remastered.vercel.app/",
 "image": "/assets/images/apple.png"
 },
 {
