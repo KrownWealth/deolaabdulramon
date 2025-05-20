@@ -1,8 +1,8 @@
 [
   {
 "projectName": "Apple Remastered",
-"goal": "Fascniated by Apple website, I decided to build a clone of the Apple website. The goal was to learn how to use framer motion for exceptional animation hat could enahnce user experience.",
-"solution": "The solution uses CSS Grid and Flexbox for layout design. Cloudinary was used for images and video optiomization. The website is responsive and works well on all devices.",
+"goal": "Fascniated by Apple website, I decided to build a clone of the Apple website. The goal was to learn how to use framer motion exceptional animation for enhance user experience and responsive user interface.",
+"solution": "Fast-blazing websites built with flexbox and CSS Grid, Cloudinary for images and video optimization.",
 "techStack": "Vite, React, Tailwind CSS, Framer Motion, Cloudinary",
 "githubLink": "https://github.com/KrownWealth/appleng-remastered/",
 "liveLink": "https://appleng-remastered.vercel.app/",
@@ -11,7 +11,7 @@
 {
 "projectName": "Prestige Photography",
 "goal": "The goal of this project was to build a photography website for a friend to showcase his photography work.",
-"solution": "A stunning fully responsive photography website, which uses Cloudinary for image gallery optiomization and faster loading time.",
+"solution": "A stunning fully responsive photography portfolio website.",
 "techStack": "Next.JS, Tailwind CSS, Shadcn UI, Cloudinary",
 "githubLink": "https://github.com/KrownWealth/prestige-photography/",
 "liveLink": "https://prestige-photography.vercel.app/",
@@ -20,7 +20,7 @@
 {
 "projectName": "Kurz",
 "goal": "The goal of this project is to enhance learning experiences for students and educators. By providing a tool for summarizing PDF and videos content.",
-"solution": "An AI-Powered web application that allows users to upload PDF and video files. The app uses Gemini Flash Web SDK to summarize the content of the uploaded files, Cloudinary for storing video history. The summarized content is then displayed in a user-friendly format.",
+"solution": "An AI-Powered PDF and Video summarization web application Features include user uploading a PDF file, video file, or Youtube Video url, PDF parsing which uses PdfJsLib, youtube video transcription, uploaded video transcription into audio uses Assembly AI, transcripted audio file into text then pass to GEMINI Flash model for summarization, then result display back to the user in the frontend interface. Uploaded videos are stored in Cloudinary for easy retrieval and re-processing.",
 "techStack": "React(Next.JS), Gemini Flash AI model, Assembly AI, Tailwind CSS,",
 "githubLink": "https://github.com/KrownWealth/kurz",
 "liveLink": "https://kurz-ai.vercel.app/",
@@ -29,7 +29,7 @@
 {
 "projectName": "Inventory-Ecommerce",
 "goal": "The goal of this project is to streamline inventory management and enhance customer engagement for e-commerce businesses. By providing a dynamic admin dashboard with real-time pricing, inventory visualization, and order tracking, this platform simplifies decision-making for stock managers. For customers, a dedicated interface offers easy product browsing, checkout, review capabilities, view order history, and profile management.",
-"solution": "This solution leverages a powerful tech stack, including TypeScript, React, Node.js, and Supabase, to create a responsive e-commerce platform. The admin dashboard offers real-time data visualization and markup-based pricing, while a robust backend, supported by Prisma ORM, MongoDB, and QuickSight, ensures secure data handling and analytics. Customers benefit from an intuitive interface with Stripe-powered checkout, profile customization, and post-purchase review features.",
+"solution": "The solution increases inventory manager efficiency through digitize inventory management web application, it also improve customers purchase intent through rating and reviews features. The admin dashboard allow managers to upload, update and deleted products, offers real-time products data visualization and markup-based pricing, aggregate statistics of products, orders, and customers. Users in real-time can view products, authenticate to make purchase, rate and review a product after purchase. The app also has a profile management features for users to manage their profile and view order history.",
 "techStack": "Typescript, React(Next.JS), RESTful APIs, PostgreSQL(Supabase), NoSQL(MongoDB), Prisma(ORM), NextAuth, Cloudinary, Tailwind CSS, Shadcn UI",
 "githubLink": "https://github.com/KrownWealth/Inventory-Ecommerce-Web-App/",
 "liveLink": "",
@@ -38,7 +38,7 @@
 {
 "projectName": "Travel Blog",
 "goal": "The goal of this project was to showcase the benefits of Headless Content Management System by building a basic travel blog app.",
-"solution": "The solution uses WordPress CMS to house the blog data, Shared Contents to keep track of new blog upload.",
+"solution": "WordPress headless CMS blog website with dynamic content management. The app has the following features. Admin can create, update, and delete blog posts without having to touch single line of code right from admin panel on WordPress, users can view posts by category, users can view posts by tags, users can view posts by author.",
 "techStack": "Typecript, Next.JS, WordPress Headless CMS, GraphQL",
 "githubLink": "https://github.com/KrownWealth/travblog",
 "liveLink": "",
