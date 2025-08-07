@@ -24,7 +24,7 @@ export default function Home() {
             </p><br />
             <p>
               Need my expertise for a project, {" "}
-              <Link href="mailto:abdulramonadeola36@gmail.com" className="underline font-semibold">book a service with me</Link>!
+              <Link href="mailto:deolaabdulramon@gmail.com" className="underline font-semibold">book a service with me</Link>!
             </p> <br />
 
             <p>

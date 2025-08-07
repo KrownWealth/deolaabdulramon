@@ -1,5 +1,14 @@
 [
   {
+  "projectName": "Genie | AI-Chatbot for Website Automation",
+  "goal": "To automate customer support and post-purchase engagement using a conversational AI tool for a solar financing website. The goal was to reduce human workload and enhance the user self-service experience.",
+  "solution": "Developed a smart AI Web Chatbot that detects user intent, automates FAQ responses, collects booking information, and integrates seamlessly with tools like Google Calendar, Sheets, and WhatsApp notifications via Zapier.",
+  "techStack": "React, Next.JS, AI-Model(Gemini-Flash-3.5), AI-SDK, Tailwind CSS, API Integrations(SendGrid, Zapier, Google Service API)",
+  "githubLink": "https://github.com/KrownWealth/genie-ai-chatbot/",
+  "liveLink": "http://genie-automate.vercel.app/",
+  "image": "/assets/images/Genie.png"
+},
+  {
 "projectName": "Apple Remastered",
 "goal": "Fascniated by Apple website, I decided to build a clone of the Apple website. The goal was to learn how to use framer motion exceptional animation for enhance user experience and responsive user interface.",
 "solution": "Fast-blazing websites built with flexbox and CSS Grid, Cloudinary for images and video optimization.",

@@ -29,7 +29,7 @@ export function PortfolioAccordion() {
               {portfolio.projectName}
             </AccordionTrigger>
             <AccordionContent>
-              <div className="flex flex-wrap">
+              <div className="flex flex-wrap gap-4">
                 <div className="flex flex-col w-full md:w-1/2 items-start justify-center space-y-4">
                   <p><strong>Goal:</strong> {portfolio.goal}</p>
                   <p><strong>Solution:</strong> {portfolio.solution}</p>
