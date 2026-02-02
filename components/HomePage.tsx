@@ -124,7 +124,7 @@ export default function Home() {
                 Emerging Technologies.
               </p>
               <p className="text-lg text-gray-300 leading-relaxed">
-                I&apos;m a Frontend Developer at Sapphire Virtual Network Limited (SVNL), a credit-financing company expanding access to technology, and renewable energy through innovative device and solar financing solutions.
+                Currently working as  a Frontend Developer at Sapphire Virtual Network Limited (SVNL), a credit-financing company expanding access to technology, and renewable energy through innovative device and solar financing solutions.
               </p>
 
               <p className="text-lg text-gray-300 leading-relaxed">
@@ -133,7 +133,7 @@ export default function Home() {
               <p className="text-lg text-gray-300 leading-relaxed"> I hold a Bachelor of Science in Education (Physics) from Obafemi Awolowo University (Affiliate: Adeyemi College of Education), Ondo, Nigeria. This STEM background strengthens my critical thinking and problem-solving approach to software development.
               </p>
               <p className="text-lg text-gray-300 leading-relaxed">
-                I love to contribute to open-source and volunteering for good cause. I have a blog on medium, where I post content on digital innovation and frontend development.
+                I love to contribute to open-source projects and volunteering for a good cause. I have a blog on medium, where I post content on digital innovation and frontend development.
               </p>
 
             </div>
