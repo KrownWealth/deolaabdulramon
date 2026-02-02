@@ -55,7 +55,7 @@ export default function Header({ activeSection = "hero" }: HeaderProps) {
         </div>
         <div>
           <Link
-            href="https://drive.google.com/file/d/1y2Rsn4nDoU36T5BdmKd94Z6aP8sFrSMr/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1loQ0GEiRyUzuygBBP3sjjhm7kf3pd6BI/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
             className="p-3 bg-blue-600 hover:bg-blue-700 rounded-full font-semibold transition-all transform hover:scale-105"
