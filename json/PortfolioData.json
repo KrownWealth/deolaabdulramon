@@ -27,6 +27,15 @@
     "image": "/assets/images/innovatehealthAfrica.png"
   },
   {
+    "projectName": "Slum2Stage",
+    "goal": "Slum to Stage We utilizes the power of dance to create safe creative communities, providing access to artistic opportunities and life skills development.",
+    "solution": "A web application developed for information dissemination, event showcasing, blog publishing, and the registration of volunteers and students.",
+    "techStack": "Typescript, Next.js, Email SMTP",
+    "githubLink": "",
+    "liveLink": "https://slum2stage/",
+    "image": "/assets/images/Slum2Stage.png"
+  },
+  {
     "projectName": "Kurz",
     "goal": "The goal of this project is to enhance learning experiences for students and educators by providing a tool for summarizing PDF and video content.",
     "solution": "An AI-Powered PDF summarization web application. Features include user uploading a PDF file, PDF parsing which uses PdfJsLib,  transcripted audio file into text then passed to GEMINI Flash model for summarization.",
