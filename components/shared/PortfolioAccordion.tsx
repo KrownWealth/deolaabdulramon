@@ -11,6 +11,18 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 
+
+export interface Portfolio {
+  projectName: string;
+  goal: string;
+  solution: string;
+  techStack?: string;
+  githubLink?: string;
+  liveLink?: string;
+  image?: string;
+  image1?: string; // Consider renaming to something more descriptive
+}
+
 export function PortfolioAccordion() {
   const [imageLoadedMap, setImageLoadedMap] = useState<Record<string, boolean>>({});
 

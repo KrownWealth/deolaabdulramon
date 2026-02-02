@@ -1,27 +1,68 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { NavigationCondition, Footer } from "@/components/shared";
+import Header from "@/components/shared/Header";
 
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Adeola Abdulramon",
-  description: "Frontend Engineer | Portfolio",
-};
+  metadataBase: new URL("http://deolaabdulramon.vercel.app/"),
 
+  title: {
+    default: "Adeola Abdulramon",
+    template: "%s | Adeola Abdulramon",
+  },
+
+  description: "Frontend Developer specializing in React, Next.js, and scalable web applications.",
+
+  keywords: [
+    "Adeola Abdulramon",
+    "Frontend Developer",
+    "React Developer",
+    "Next.js Developer",
+    "Portfolio Website",
+  ],
+
+  authors: [{ name: "Adeola Abdulramon" }],
+  creator: "Adeola Abdulramon",
+
+  openGraph: {
+    title: "Adeola Abdulramon | Frontend Developer",
+    description: "Portfolio of Adeola Abdulramon, a Frontend Developer building modern, scalable web applications.",
+    url: "http://deolaabdulramon.vercel.app/",
+    siteName: "Adeola Abdulramon Portfolio",
+    locale: "en_US",
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Adeola Abdulramon | Frontend Engineer",
+    description: "Frontend Developer building modern web experiences with React and Next.js.",
+  },
+
+  icons: {
+    icon: [
+      { url: "/assets/images/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+      { url: "/assets/images/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+    ],
+    apple: "/assets/images/apple-touch-icon.png",
+    shortcut: "/assets/images/favicon.ico",
+  },
+
+  manifest: "/assets/images/site.webmanifest",
+};
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
-
   return (
     <html lang="en">
       <body className={inter.className}>
-
-        <main>  {children}</main>
+        <Header />
+        <main>{children}</main>
         {/* <Footer /> */}
       </body>
     </html>

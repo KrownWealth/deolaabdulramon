@@ -1,93 +1,84 @@
 [
   {
-  "projectName": "Genie | AI-Chatbot for Website Automation",
-  "goal": "To automate customer support and post-purchase engagement using a conversational AI tool for a solar financing website. The goal was to reduce human workload and enhance the user self-service experience.",
-  "solution": "Developed a smart AI Web Chatbot that detects user intent, automates FAQ responses, collects booking information, and integrates seamlessly with tools like Google Calendar, Sheets, and WhatsApp notifications via Zapier.",
-  "techStack": "React, Next.JS, AI-Model(Gemini-Flash-3.5), AI-SDK, Tailwind CSS, API Integrations(SendGrid, Zapier, Google Service API)",
-  "githubLink": "https://github.com/KrownWealth/genie-ai-chatbot/",
-  "liveLink": "http://genie-automate.vercel.app/",
-  "image": "/assets/images/Genie.png"
-},
+    "projectName": "weCareEHR | Electronic Health Records System for Nigerian Clinics",
+    "goal": "To build a comprehensive backend system for managing electronic health records, enabling healthcare providers to efficiently handle patient data, appointments, medical records, and billing in a secure and compliant manner.",
+    "solution": "Developed a robust RESTful API backend with role-based access control (RBAC) for different user types (doctors, nurses, administrators, patients). Implemented secure authentication, patient management, appointment scheduling, medical records storage, prescription management, and billing features. The system ensures HIPAA compliance with encrypted data storage and audit logging.",
+    "techStack": "Node.js, Express.js, TypeScript, PostgreSQL, Prisma ORM, JWT Authentication, Bcrypt, RESTful APIs",
+    "githubLink": "https://drive.google.com/file/d/1IWvNhKsUtHnmoW2Sbcsn33dmU_vk5ABG/view?usp=sharing",
+    "liveLink": "https://team-ehr.vercel.app/",
+    "image": "/assets/images/wecareEHR.png"
+  },
   {
-"projectName": "Apple Remastered",
-"goal": "Fascniated by Apple website, I decided to build a clone of the Apple website. The goal was to learn how to use framer motion exceptional animation for enhance user experience and responsive user interface.",
-"solution": "Fast-blazing websites built with flexbox and CSS Grid, Cloudinary for images and video optimization.",
-"techStack": "Vite, React, Tailwind CSS, Framer Motion, Cloudinary",
-"githubLink": "https://github.com/KrownWealth/appleng-remastered/",
-"liveLink": "https://appleng-remastered.vercel.app/",
-"image": "/assets/images/apple.png"
-},
-{
-"projectName": "Prestige Photography",
-"goal": "The goal of this project was to build a photography website for a friend to showcase his photography work.",
-"solution": "A stunning fully responsive photography portfolio website.",
-"techStack": "Next.JS, Tailwind CSS, Shadcn UI, Cloudinary",
-"githubLink": "https://github.com/KrownWealth/prestige-photography/",
-"liveLink": "https://prestige-photography.vercel.app/",
-"image": "/assets/images/prestige.png"
-},
-{
-"projectName": "Kurz",
-"goal": "The goal of this project is to enhance learning experiences for students and educators. By providing a tool for summarizing PDF and videos content.",
-"solution": "An AI-Powered PDF and Video summarization web application Features include user uploading a PDF file, video file, or Youtube Video url, PDF parsing which uses PdfJsLib, youtube video transcription, uploaded video transcription into audio uses Assembly AI, transcripted audio file into text then pass to GEMINI Flash model for summarization, then result display back to the user in the frontend interface. Uploaded videos are stored in Cloudinary for easy retrieval and re-processing.",
-"techStack": "React(Next.JS), Gemini Flash AI model, Assembly AI, Tailwind CSS,",
-"githubLink": "https://github.com/KrownWealth/kurz",
-"liveLink": "https://kurz-ai.vercel.app/",
-"image": "/assets/images/kurz.png"
-},
-{
-"projectName": "Inventory-Ecommerce",
-"goal": "The goal of this project is to streamline inventory management and enhance customer engagement for e-commerce businesses. By providing a dynamic admin dashboard with real-time pricing, inventory visualization, and order tracking, this platform simplifies decision-making for stock managers. For customers, a dedicated interface offers easy product browsing, checkout, review capabilities, view order history, and profile management.",
-"solution": "The solution increases inventory manager efficiency through digitize inventory management web application, it also improve customers purchase intent through rating and reviews features. The admin dashboard allow managers to upload, update and deleted products, offers real-time products data visualization and markup-based pricing, aggregate statistics of products, orders, and customers. Users in real-time can view products, authenticate to make purchase, rate and review a product after purchase. The app also has a profile management features for users to manage their profile and view order history.",
-"techStack": "Typescript, React(Next.JS), RESTful APIs, PostgreSQL(Supabase), NoSQL(MongoDB), Prisma(ORM), NextAuth, Cloudinary, Tailwind CSS, Shadcn UI",
-"githubLink": "https://github.com/KrownWealth/Inventory-Ecommerce-Web-App/",
-"liveLink": "",
-"image": "/assets/images/Price Sage.png"
-},
-{
-"projectName": "Travel Blog",
-"goal": "The goal of this project was to showcase the benefits of Headless Content Management System by building a basic travel blog app.",
-"solution": "WordPress headless CMS blog website with dynamic content management. The app has the following features. Admin can create, update, and delete blog posts without having to touch single line of code right from admin panel on WordPress, users can view posts by category, users can view posts by tags, users can view posts by author.",
-"techStack": "Typecript, Next.JS, WordPress Headless CMS, GraphQL",
-"githubLink": "https://github.com/KrownWealth/travblog",
-"liveLink": "",
-"image": "/assets/images/Travblog.png"
-},
-
-{
-"projectName": "Clotheccessories",
-"goal": "Clotheccessories is a simulated fashion brand based in Nigeria. Customers can view range of available products, filter product by colors. ",
-"solution": "The E-Commerce website was built from scratch using HTML, CSS, and JavaScript. This was to test my knowledge in JavaScript event handlers and DOM manipulation",
-"techStack": "HTML, CSS, JavaScript ",
-"githubLink": "https://github.com/KrownWealth/Clothccessories",
-"liveLink": "https://krownwealth.github.io/Clothccessories/",
-"image": "/assets/images/Clothesseccories.png"
-},
-
-{
-"projectName": "Calorify",
-"goal": "The task was to build a web app that allows gym-goers calculate the total estimation of the calory burned during a specific activity over a period of time.",
-"solution": "The app has the following features. Users can select activity from activities dropdown fetches from a REST APIs; Users can input their weight and time duration they want the actiity to span.",
-"techStack": "Next.JS, REST APIs endpoint, Tailwind CSS, ",
-"githubLink": "https://github.com/KrownWealth/calorify",
-"liveLink": "",
-"image1": "/assets/images/calorify-mobile.png"
-},
-
-{
-"projectName": "Neastin",
-"goal": "Neastin is a digital marketing website built with WordPress. They wanted an informative E-Commerce website for users to purchase digital services packages.",
-"techStack": "WordPress, Elementor, ACF",
-"image": "/assets/images/neastin.png"
-},
-
-{
-"projectName": "Travel and Meal",
-"goal": "Travel and Meal is an e-commerce platform built for local restaurants for visibility purpose. Offering a location-based services helped to reduce customer physical queue by 15%.",
-"solution": "The app has the following features. Users singup and login features, google 0Auth 2.0, Appwrite for database storage, restaurants archive page, individual restaurant detail page and many more.",
-"techStack": "React, Next.JS, Appwrite, Tailwind CSS, ",
-"githubLink": "https://github.com/KrownWealth/travelandmeal",
-"liveLink": "",
-"image": "/assets/images/Travel and Meal.png"
-}
+    "projectName": "Digital Health Literacy Self Assessment Tool | Innovate Health Africa",
+    "goal": "Empowering frontline healthcare professionals to assess, understand and enhance their digital health literacy through personalized, scientifically validated insights and recommendations",
+   "solution": "A web application that allows healthcare professionals to take a comprehensive digital health literacy self-assessment. The app provides personalized feedback and recommendations based on the assessment results, helping users identify areas for improvement and access relevant resources to enhance their digital health skills.",
+    "techStack": "TypeScript, Next.JS, React.JS, API Integration, Tailwind CSS,",
+    "githubLink": "",
+    "liveLink": "https://dhl.innovatehealth.africa/",
+    "image": "/assets/images/DHL_SAT.png"
+  },
+  {
+    "projectName": "Africa Healthcare Innovation Fellowship (AHIF) 2026 | Innovate Health Africa",
+    "goal": "The AHIF 2026 cohort is a 14-weeks, field-based fellowship designed to equip young African professionals with the skills, networks, and hands-on experience needed to identify problems, design, test, and scale context-relevant healthcare solutions.",
+   "solution": "In collaboration with the project stakeholders, I developed the web page that allows African healthcare professionals to apply for the fellowship program. The web page provides information about the fellowship, application process, and eligibility criteria.",
+    "techStack": "TypeScript, Next.JS, React.JS, Tailwind CSS",
+    "githubLink": "",
+    "liveLink": "https://innovatehealth.africa/ahif-2026",
+    "image": "/assets/images/innovatehealthAfrica.png"
+  },
+  {
+    "projectName": "Kurz",
+    "goal": "The goal of this project is to enhance learning experiences for students and educators by providing a tool for summarizing PDF and video content.",
+    "solution": "An AI-Powered PDF summarization web application. Features include user uploading a PDF file, PDF parsing which uses PdfJsLib,  transcripted audio file into text then passed to GEMINI Flash model for summarization.",
+    "techStack": "Typescript, Next.js, Gemini 3.5 AI model",
+    "githubLink": "https://github.com/KrownWealth/kurz",
+    "liveLink": "https://kurz-ai.vercel.app/",
+    "image": "/assets/images/kurz.png"
+  },
+  {
+    "projectName": "Genie | AI-Chatbot for Website Automation",
+    "goal": "To automate customer support and post-purchase engagement using a conversational AI tool for a solar financing website. The goal was to reduce human workload and enhance the user self-service experience.",
+    "solution": "Developed a smart AI Web Chatbot that detects user intent, automates FAQ responses, collects booking information, and integrates seamlessly with tools like Google Calendar, Sheets, and WhatsApp notifications via Zapier.",
+    "techStack": "React, Next.js, Gemini 3.5 AI model, AI SDK, Tailwind CSS, SendGrid API, Zapier, Google Service API",
+    "githubLink": "https://github.com/KrownWealth/genie-ai-chatbot/",
+    "liveLink": "http://genie-automate.vercel.app/",
+    "image": "/assets/images/Genie.png"
+  },
+  {
+    "projectName": "Apple Remastered",
+    "goal": "Fascinated by Apple's website, I decided to build a clone. The goal was to learn how to use Framer Motion for exceptional animations to enhance user experience and create a responsive user interface.",
+    "solution": "Fast-blazing website built with Flexbox and CSS Grid, Cloudinary for images and video optimization.",
+    "techStack": "Vite, React, Tailwind CSS, Framer Motion, Cloudinary",
+    "githubLink": "https://github.com/KrownWealth/appleng-remastered/",
+    "liveLink": "https://appleng-remastered.vercel.app/",
+    "image": "/assets/images/apple.png"
+  },
+  {
+    "projectName": "Prestige Photography",
+    "goal": "The goal of this project was to build a photography website for a friend to showcase his photography work.",
+    "solution": "A stunning fully responsive photography portfolio website.",
+    "techStack": "Next.js, Tailwind CSS, Shadcn UI, Cloudinary",
+    "githubLink": "https://github.com/KrownWealth/prestige-photography/",
+    "liveLink": "https://prestige-photography.vercel.app/",
+    "image": "/assets/images/prestige.png"
+  },
+  
+  {
+    "projectName": "Clotheccessories",
+    "goal": "Clotheccessories is a simulated fashion brand based in Nigeria. Customers can view a range of available products and filter products by colors.",
+    "solution": "The E-Commerce website was built from scratch using HTML, CSS, and JavaScript. This was to test my knowledge in JavaScript event handlers and DOM manipulation.",
+    "techStack": "HTML, CSS, JavaScript",
+    "githubLink": "https://github.com/KrownWealth/Clothccessories",
+    "liveLink": "https://krownwealth.github.io/Clothccessories/",
+    "image": "/assets/images/Clothesseccories.png"
+  },
+  {
+    "projectName": "Calorify",
+    "goal": "The task was to build a web app that allows gym-goers to calculate the total estimation of the calories burned during a specific activity over a period of time.",
+    "solution": "The app has the following features: Users can select activity from activities dropdown fetched from a REST API; Users can input their weight and time duration they want the activity to span.",
+    "techStack": "Next.js, REST APIs, Tailwind CSS",
+    "githubLink": "https://github.com/KrownWealth/calorify",
+    "liveLink": "",
+    "image": "/assets/images/calorify-mobile.png"
+  }
 ]
