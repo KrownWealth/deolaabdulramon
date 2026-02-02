@@ -20,6 +20,7 @@ export const metadata: Metadata = {
     "Adeola Abdulramon",
     "Frontend Developer",
     "React Developer",
+    "Web Developer",
     "Next.js Developer",
     "Portfolio Website",
   ],
@@ -41,18 +42,8 @@ export const metadata: Metadata = {
     title: "Adeola Abdulramon | Frontend Engineer",
     description: "Frontend Developer building modern web experiences with React and Next.js.",
   },
-
-  icons: {
-    icon: [
-      { url: "/assets/images/favicon-32x32.png", sizes: "32x32", type: "image/png" },
-      { url: "/assets/images/favicon-16x16.png", sizes: "16x16", type: "image/png" },
-    ],
-    apple: "/assets/images/apple-touch-icon.png",
-    shortcut: "/assets/images/favicon.ico",
-  },
-
-  manifest: "/assets/images/site.webmanifest",
 };
+
 export default function RootLayout({
   children,
 }: {

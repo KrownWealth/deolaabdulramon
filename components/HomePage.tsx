@@ -7,7 +7,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import { useEffect, useState } from "react";
 import { PortfolioData, BlogData } from "@/json";
 
-export default function Home() {
+export default function HomeAlternative() {
   const [scrollY, setScrollY] = useState(0);
 
   useEffect(() => {
